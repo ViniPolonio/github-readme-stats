@@ -17,8 +17,8 @@ jobs:
 
       - name: Baixar estatísticas privadas
         run: |
-          curl "https://github-readme-stats-seven-pearl-33.vercel.app/api?username=ViniPolonio&show_icons=true&theme=radical&count_private=true" -o stats.svg
-          curl "https://github-readme-stats-seven-pearl-33.vercel.app/api/top-langs/?username=ViniPolonio&layout=compact&theme=radical&count_private=true" -o langs.svg
+          curl "https://github-readme-stats-lyart-xi-njmd2xfuoy.vercel.app/api?username=ViniPolonio&show_icons=true&theme=radical&count_private=true" -o stats.svg
+          curl "https://github-readme-stats-lyart-xi-njmd2xfuoy.vercel.app/api/top-langs/?username=ViniPolonio&layout=compact&theme=radical&count_private=true" -o langs.svg
 
       - name: Commit e push das imagens
         run: |
